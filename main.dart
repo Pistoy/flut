@@ -112,29 +112,6 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ),
                       fit: FlexFit.tight),
-
-                  // Padding(
-                  //   padding: const EdgeInsets.only(left: 20, right: 20),
-                  //   child: FractionallySizedBox(
-                  //     alignment: Alignment.center,
-                  //     child: Card(
-                  //       child: Row(
-                  //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  //         children: [
-                  //           Text(
-                  //             "Hangi günler ofise geleceksin?",
-                  //             style: TextStyle(fontWeight: FontWeight.bold),
-                  //           ),
-                  //           Icon(
-                  //             Icons.call_made,
-                  //             color: Colors.orange,
-                  //           )
-                  //         ],
-                  //       ),
-                  //       elevation: 2,
-                  //     ),
-                  //   ),
-                  // )
                 ],
               ),
               Padding(
@@ -209,25 +186,7 @@ class _MyAppState extends State<MyApp> {
                   icon: Icon(Icons.car_rental), label: "Servis & QR Kod")
             ],
           )
-          // Row(
-          //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          //   children: [
-          //     Icon(
-          //       Icons.home,
-          //       color: Colors.orange,
-          //       semanticLabel: "asd",
-          //     ),
-          //     Icon(
-          //       Icons.details,
-          //       color: Colors.orange,
-          //     ),
-          //     Icon(
-          //       Icons.car_repair,
-          //       color: Colors.orange,
-          //     )
-          //   ],
-          // ),
-          ),
+        ),
     );
   }
 }
